@@ -1,10 +1,11 @@
 // Soal no.1
-var kataPertama = "Saya";
+var kataPertama = "saya";
 var kataKedua = " Senang";
-var kataKetiga = " Belajar";
-var kataKeempat = " Javascript";
+var kataKetiga = " belajar";
+var kataKeempat = " javascript";
+var upper = kataKeempat.toUpperCase();
 
-console.log(kataPertama.concat(kataKedua).concat(kataKetiga).concat(kataKeempat)); // Jawaban Soal no. 1
+console.log(kataPertama.concat(kataKedua).concat(kataKetiga).concat(upper)); // Jawaban Soal no. 1
 
 
 // Soal no.2
