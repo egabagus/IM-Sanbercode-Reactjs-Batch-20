@@ -68,3 +68,6 @@ switch(bulan){ // Jawaban Soal no.5
     case 11: {console.log("Tanggal lahir saya adalah " + tanggal + " November " +tahun); break;}
     case 12: {console.log("Tanggal lahir saya adalah " + tanggal + " Desember " +tahun); break;} // Jawaban Soal no.5
 }
+
+
+//
