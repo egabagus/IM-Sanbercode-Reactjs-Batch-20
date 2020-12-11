@@ -72,3 +72,9 @@ var objDataFilter = objDataBuah.filter(function(item){
 })
 
 console.log(objDataFilter)
+
+
+// Soal no.6
+var datafilm = []; // Jawaban Soal no.6
+datafilm.push({judul : "The Meg", genre : "action", durasi : "115 menit", tahun : 2019}); // Jawaban Soal no.6
+console.log(datafilm) // Jawaban Soal no.6
