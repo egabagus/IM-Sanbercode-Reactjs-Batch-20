@@ -23,14 +23,12 @@ var genapganjil = 2;
 var kelipatan3 = 3;
 
 for (;angka3 < 20; angka3++){
-    if (angka3 % genapganjil == 0){
-        console.log(angka3 + " santai")
-    } else if (angka3 % genapganjil == 1){
-        console.log(angka3 + " berkualitas")
-    } else if (angka3 % kelipatan3 == 0){
+    if (angka3 % kelipatan3 == 0 && angka3 %genapganjil == 1){
         console.log(angka3 + " I love coding")
+    } else if (angka3 % genapganjil == 1){
+        console.log(angka3 + " santai")
     } else{
-        console.log(angka3)
+        console.log(angka3 + " berkaualitas")
     }
 }
 
