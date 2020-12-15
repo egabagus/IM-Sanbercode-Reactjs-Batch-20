@@ -17,24 +17,39 @@ console.log(kelilingLingkaran(10));
 
 
 // Soal no.2
-const kalimat1 = "saya";
-const kalimat2 = "adalah";
-const kalimat3 = "seorang";
-const kalimat4 = "frontend";
-const kalimat5 = "developer";
 
-const gabungan = (kalimat) => {
-    return kalimat = `${kalimat1} ${kalimat2} ${kalimat3} ${kalimat4} ${kalimat5}`  // Jawaban Soal no.2
+let kalimat = ""
+
+const gabungan = (str) => {
+    kalimat = `${kalimat} ${str}`;
 }
-console.log(gabungan())
+
+gabungan("Saya")
+gabungan("Adalah")
+gabungan("Seorang")
+gabungan("Frontend")
+gabungan("Developer")
+
+console.log(kalimat)
+
+// const kalimat1 = "saya";
+// const kalimat2 = "adalah";
+// const kalimat3 = "seorang";
+// const kalimat4 = "frontend";
+// const kalimat5 = "developer";
+
+// const gabungan = (kalimat) => {
+//     return kalimat = `${kalimat1} ${kalimat2} ${kalimat3} ${kalimat4} ${kalimat5}`  // Jawaban Soal no.2
+// }
+// console.log(gabungan())
 
 
 // Soal no.3
-function cetakNama(namadepan, namabelakang){
+const cetakNama = (namadepan, namabelakang) => {
     return{
         namadepan,
         namabelakang,
-        namalengkap(){
+        namalengkap: () => {
             console.log(namadepan + namabelakang)
         }
     }
