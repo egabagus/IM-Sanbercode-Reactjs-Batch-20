@@ -6,7 +6,7 @@ import './tugas9.css';
 class Tugas9 extends React.Component{
   render(){
       return (<>
-<header>
+        <header>
         <h1>Form Pembelian Buah</h1>
         </header>
         <body>

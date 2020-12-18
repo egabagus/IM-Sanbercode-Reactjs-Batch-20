@@ -34,22 +34,22 @@ class Data extends React.Component{
     render(){
         return (<>
         <h1>Tabel Harga Buah</h1>
+        <table border="1" className="table-buah">
+            <tr>
+                <th>Nama Buah</th>
+                <th>Harga</th>
+                <th>Berat</th>
+            </tr>
                 {dataHargaBuah.map(el=> {
           return (
-            <table border="1" className="table-buah">
-                <thead>
-                    <th>Nama Buah</th>
-                    <th>Harga</th>
-                    <th>Berat (gram)</th>
-                </thead>
-                <tbody>
-                    <td><Nama nama={el.nama}/></td>
-                    <td><Harga harga={el.harga}/></td>
-                    <td><Berat berat={el.berat}/></td>
-                </tbody>
-            </table>
+            <tr>
+                <td><Nama nama={el.nama}/></td>
+                <td><Harga harga={el.harga}/></td>
+                <td><Berat berat={el.berat}/></td>
+            </tr>
           )
         })}
+        </table>
         </>
         )
     }
