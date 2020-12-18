@@ -1,0 +1,8 @@
+.table-buah{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-buah thead{
+    background-color: rgb(202, 202, 202);
+}
