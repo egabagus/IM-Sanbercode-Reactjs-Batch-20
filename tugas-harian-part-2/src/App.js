@@ -1,8 +1,9 @@
 import logo from './logo.svg';
-import React from "react";
 import './App.css';
 import Data from './tugas-10/tugas10';
 import Tugas9 from './tugas-9/tugas9';
+import React, {Component} from 'react';
+import Timer from './tugas-11/tugas11';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div className="form-buah">
         <Data/>
+      </div>
+      <div className="form-buah">
+        <Timer/>
       </div>
     </>
   );
