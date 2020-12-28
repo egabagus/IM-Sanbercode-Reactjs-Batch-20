@@ -4,18 +4,34 @@ import Data from './tugas-10/tugas10';
 import Tugas9 from './tugas-9/tugas9';
 import React, {Component} from 'react';
 import Timer from './tugas-11/tugas11';
+import Lists from './tugas-12/tugas12';
+import Contoh from './tugas-13/tugas13';
+import DaftarBuah from './tugas-13/tugas13';
+import Buah from './tugas-14/Buah';
 
 function App() {
   return (
     <>
-      <div className="form-buah">
+      {/* <div className="form-buah">
         <Tugas9/>
-      </div>
-      <div className="form-buah">
+      </div> */}
+      {/* <div className="form-buah">
         <Data/>
-      </div>
-      <div className="form-buah">
+      </div> */}
+      {/* <div className="form-buah">
         <Timer/>
+      </div> */}
+      {/* <div className="form-buah">
+        <Lists/>
+      </div> */}
+      {/* <div className="form-buah">
+        <DaftarBuah/>
+      </div> */}
+      {/* <div className="form-buah">
+        <Movie/>
+      </div> */}
+      <div className="form-buah">
+        <Buah/>
       </div>
     </>
   );
