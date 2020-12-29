@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Data from './tugas-10/tugas10';
-import Tugas9 from './tugas-9/tugas9';
 import React, {Component} from 'react';
-import Timer from './tugas-11/tugas11';
-import Lists from './tugas-12/tugas12';
-import Contoh from './tugas-13/tugas13';
-import DaftarBuah from './tugas-13/tugas13';
-import Buah from './tugas-14/Buah';
+import Routes from './Tugas-15/Routes';
+// import Data from './tugas-10/tugas10';
+// import Tugas9 from './tugas-9/tugas9';
+// import Timer from './tugas-11/tugas11';
+// import Lists from './tugas-12/tugas12';
+// import Contoh from './tugas-13/tugas13';
+// import DaftarBuah from './tugas-13/tugas13';
+// import DaftarBuah from './tugas-14/DaftarBuah';
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -30,9 +32,10 @@ function App() {
       {/* <div className="form-buah">
         <Movie/>
       </div> */}
-      <div className="form-buah">
+      {/* <div className="form-buah">
         <Buah/>
-      </div>
+      </div> */}
+          <Routes/> 
     </>
   );
 }

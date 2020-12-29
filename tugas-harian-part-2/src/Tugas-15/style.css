@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: rgb(235, 235, 235);
+    background-size: cover;
+}
+
+.nav{
+    position: relative;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-family: 'lato';
+}
+
+.post{
+    padding: 30px;
+}
