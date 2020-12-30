@@ -13,7 +13,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div className="all">
       {/* <div className="form-buah">
         <Tugas9/>
       </div> */}
@@ -36,7 +36,7 @@ function App() {
         <Buah/>
       </div> */}
           <Routes/> 
-    </>
+    </div>
   );
 }
 

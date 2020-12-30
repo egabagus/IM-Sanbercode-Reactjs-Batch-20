@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import './tugas12.css'
 
 class DaftarBuah extends Component{
 
@@ -107,6 +108,8 @@ class DaftarBuah extends Component{
   render(){
     return(
       <>
+      <div className="post1">
+        <div className="form1">
         <h1>Daftar Harga Buah</h1>
         <table>
           <thead>
@@ -138,10 +141,12 @@ class DaftarBuah extends Component{
               }
           </tbody>
         </table>
+        </div>
         {/* Form */}
+
+        <div className="form1">
         <h1>Form Daftar Harga Buah</h1>
-        <div style={{width: "50%", margin: "0 auto", display: "block"}}>
-          <div style={{border: "1px solid #aaa", padding: "20px"}}>
+          <div>
             <form onSubmit={this.handleSubmit}>
               <label style={{float: "left"}}>
                 Nama:
@@ -161,11 +166,12 @@ class DaftarBuah extends Component{
               <input style={{float: "right"}} type="number" required name="berat" value={this.state.inputBerat} onChange={this.handleChange}/>
               <br/>
               <br/>
-              <div style={{width: "100%", paddingBottom: "20px"}}>
+              <div>
                 <button style={{ float: "right"}}>submit</button>
               </div>
             </form>
           </div>
+        </div>
         </div>
       </>
     )
