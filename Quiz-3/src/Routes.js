@@ -1,4 +1,5 @@
-import Index from './Tugas-2/index1';
+import About from './About/about';
+import Home from './Home/home';
 import React from "react";
 import {
     BrowserRouter as Router,
@@ -19,7 +20,10 @@ const Routes = () => {
                 </div>
                 <div>
                     <Route exact path ="/">
-                        <Index/>
+                        <Home/>
+                    </Route>
+                    <Route exact path ="/about">
+                        <About/>
                     </Route>
                 </div>
             </Router>
